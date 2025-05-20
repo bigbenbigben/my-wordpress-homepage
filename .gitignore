@@ -44,8 +44,8 @@ app/public/sitemap-*.xml
 app/public/wp-content/*
 !app/public/wp-content/themes/
 app/public/wp-content/themes/*
-!app/public/wp-content/themes/my-theme/
-app/public/wp-content/themes/my-theme/css/.sass-cache/
+!app/public/wp-content/themes/twentytwentyfive-child/
+app/public/wp-content/themes/twentytwentyfive-child/css/.sass-cache/
 
 # データベースダンプ
 *.sql
