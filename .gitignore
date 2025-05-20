@@ -1,0 +1,52 @@
+# WordPress Core
+app/public/wp-admin/
+app/public/wp-includes/
+app/public/license.txt
+app/public/readme.html
+app/public/xmlrpc.php
+app/public/wp-*.php
+app/public/index.php
+
+
+# ローカル環境の設定ファイル
+app/public/wp-config.php
+app/public/wp-config-sample.php
+local-xdebuginfo.php
+
+
+# OS・エディタなどの一時ファイル
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# PHP環境によるキャッシュ・ログ
+*.cache
+*.sql
+*.sqlite
+*.bak
+.env
+.env.*
+logs/
+
+# Node・Composerなどの依存ファイル（使っている場合）
+node_modules/
+vendor/
+
+# 自動生成される内容
+app/public/sitemap.xml
+app/public/sitemap-*.xml
+*.gz
+
+# wp-content 内で除外したいもの（必要に応じて）
+app/public/wp-content/*
+!app/public/wp-content/themes/
+app/public/wp-content/themes/*
+!app/public/wp-content/themes/my-theme/
+app/public/wp-content/themes/my-theme/css/.sass-cache/
+
+# データベースダンプ
+*.sql
+*.sql.gz
